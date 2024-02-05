@@ -1,7 +1,7 @@
 const COLOR_PINK = 'color: #e483b2;';
 
 function generateRandomCategory() {
-    const categories = ['Famous People', 'Science Experiments', 'Space Exploration'];
+    const categories = ['Famous Person', 'color', 'singer',' presidents', 'something you find on a desk', 'kitchen items', 'animal'];
     return categories[Math.floor(Math.random() * categories.length)];
 }
 
@@ -130,4 +130,3 @@ document.getElementById('start-game-button').addEventListener('click', function 
     currentIndex = 0;
     playTurn();
 });
-
